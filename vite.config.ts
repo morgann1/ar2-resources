@@ -5,7 +5,7 @@ import tsconfigPaths from "vite-tsconfig-paths";
 
 export default defineConfig(() => {
   return {
-    base: "/ar2-resources/",
+    base: "/resources/apocalypse-rising/",
     plugins: [qwikCity(), qwikVite(), tsconfigPaths()],
     dev: {
       headers: {

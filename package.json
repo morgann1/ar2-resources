@@ -1,6 +1,6 @@
 {
   "name": "ar2-resources",
-  "homepage": "https://morgann1.github.io/ar2-resources/",
+  "homepage": "https://morgann1.github.io/resources/apocalypse-rising/",
   "description": "Demo App with Routing built-in (recommended)",
   "engines": {
     "node": ">=15.0.0"
@@ -16,7 +16,7 @@
     "build.client": "vite build",
     "build.preview": "vite build --ssr src/entry.preview.tsx",
     "build.types": "tsc --incremental --noEmit",
-    "deploy": "dh-pages -d dist",
+    "deploy": "gh-pages -d dist",
     "dev": "vite --mode ssr",
     "dev.debug": "node --inspect-brk ./node_modules/vite/bin/vite.js --mode ssr --force",
     "fmt": "prettier --write .",
