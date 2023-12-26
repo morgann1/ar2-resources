@@ -1,0 +1,1 @@
+import{h as n,P as o,K as l,N as s}from"./q-Cavo_Hsi.js";const r="_infobox_oa4r7_1",t={infobox:r},i=()=>n("div",null,{class:t.infobox},[n("h3",null,null,o(s,{name:"title",[l]:{name:l}},3,"rC_0"),1,null),o(s,null,3,"rC_1")],1,"rC_2");export{i as s_QM1Ez9gCUXE};
