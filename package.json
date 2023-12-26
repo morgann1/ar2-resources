@@ -1,5 +1,6 @@
 {
-  "name": "my-qwik-basic-starter",
+  "name": "ar2-resources",
+  "homepage": "https://morgann1.github.io/ar2-resources/",
   "description": "Demo App with Routing built-in (recommended)",
   "engines": {
     "node": ">=15.0.0"
