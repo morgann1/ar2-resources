@@ -1,0 +1,7 @@
+import{a as p,X as b,M as g,P as k,Q as u,N as A,g as _,_ as v,f as D}from"./q-oHd3g0ot.js";import{u as K,a as N,g as m,b as C}from"./q-EUAy5rJE.js";const L=t=>{const e=K(),a=N(),{onClick$:n,reload:r,replaceState:i,scroll:h,...o}=t,l=p(()=>m({...o,reload:r},a)),f=p(()=>C(t,l,a));o["link:app"]=!!l,o.href=l||t.href;const c=f!=null?u(_(()=>v(()=>import("./q-WTiLfEkm.js"),__vite__mapDeps([])),"s_eBQ0vFsFKsk")):void 0,d=b((s,P)=>{P.hasAttribute("link:app")&&!(s.metaKey||s.ctrlKey||s.shiftKey||s.altKey)&&s.preventDefault()},'(event,target)=>{if(target.hasAttribute("link:app")&&!(event.metaKey||event.ctrlKey||event.shiftKey||event.altKey)){event.preventDefault();}}'),y=u(_(()=>v(()=>Promise.resolve().then(()=>O),void 0),"s_i1Cv0pYJNR0",[e,r,i,h]));return g("a",{...o,children:k(A,null,3,"AD_0"),"data-prefetch":f,onClick$:[d,n,y],onFocus$:c,onMouseOver$:c,onQVisible$:c},null,0,"AD_1")},M=async(t,e)=>{const[a,n,r,i]=D();t.defaultPrevented&&(e.hasAttribute("q:nbs")?await a(location.href,{type:"popstate"}):e.href&&(e.setAttribute("aria-pressed","true"),await a(e.href,{forceReload:n,replaceState:r,scroll:i}),e.removeAttribute("aria-pressed")))},O=Object.freeze(Object.defineProperty({__proto__:null,s_8gdLBszqbaM:L,s_i1Cv0pYJNR0:M},Symbol.toStringTag,{value:"Module"}));export{L as s_8gdLBszqbaM,M as s_i1Cv0pYJNR0};
+function __vite__mapDeps(indexes) {
+  if (!__vite__mapDeps.viteFileDeps) {
+    __vite__mapDeps.viteFileDeps = []
+  }
+  return indexes.map((i) => __vite__mapDeps.viteFileDeps[i])
+}

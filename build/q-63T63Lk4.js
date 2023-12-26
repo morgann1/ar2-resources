@@ -1,0 +1,7 @@
+import{f as _,V as l,g as n,_ as e,o as a,h as s,P as c,K as v,C as i,v as p}from"./q-oHd3g0ot.js";const C=t=>{const[o]=_();t<0||t>100||(o.value=t)},P=()=>{const[t,o]=_();return o(t.value-1)},d=l(n(()=>e(()=>import("./q-9dxor4Qt.js"),__vite__mapDeps([])),"s_7gzriUtQs98")),E={"counter-wrapper":"_counter-wrapper_43sys_1"},b=()=>{const t=a(70),o=n(()=>e(()=>Promise.resolve().then(()=>r),void 0),"s_aXA3vNn55QE",[t]);return s("div",null,{class:E["counter-wrapper"]},[s("button",null,{class:"button-dark button-small",onClick$:n(()=>e(()=>Promise.resolve().then(()=>r),void 0),"s_D04jAYuCnhM",[t,o])},"-",3,null),c(d,{get value(){return t.value},[v]:{value:i(u=>u.value,[t])}},3,"no_0"),s("button",null,{class:"button-dark button-small",onClick$:n(()=>e(()=>Promise.resolve().then(()=>r),void 0),"s_LkCVrojX09Y",[t,o])},"+",3,null)],1,"no_1")},m=()=>{const[t,o]=_();return o(t.value+1)},r=Object.freeze(Object.defineProperty({__proto__:null,_hW:p,s_5Go3iiHXUB4:b,s_D04jAYuCnhM:P,s_LkCVrojX09Y:m,s_aXA3vNn55QE:C},Symbol.toStringTag,{value:"Module"}));export{p as _hW,b as s_5Go3iiHXUB4,P as s_D04jAYuCnhM,m as s_LkCVrojX09Y,C as s_aXA3vNn55QE};
+function __vite__mapDeps(indexes) {
+  if (!__vite__mapDeps.viteFileDeps) {
+    __vite__mapDeps.viteFileDeps = []
+  }
+  return indexes.map((i) => __vite__mapDeps.viteFileDeps[i])
+}
